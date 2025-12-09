@@ -27,5 +27,10 @@ public class CalculatorTest {
 	public void testDivision() {
 		assertEquals(1,Calculator.division(5, 5));
 	}
+	
+	@Test
+	public void testFindFactorial() {
+		assertEquals(120,Calculator.findFactorial(5));
+	}
 
 }
