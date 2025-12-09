@@ -3,6 +3,7 @@ package com.wipro;
 public class Calculator {
 	
 	public static int addition(int num1,int num2) {
+		System.out.println("Addition method from Calculator class");
 		return num1+num2;
 	}
 	
