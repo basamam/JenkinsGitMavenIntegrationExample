@@ -10,6 +10,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testAddition() {
+		System.out.println("Addition method from Test");
 		assertEquals(10,Calculator.addition(5, 5));
 	}
 
